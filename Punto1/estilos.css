@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { background: #f7f3e8; color: #2f4f35; max-width: 1050px; margin: 40px auto; padding: 20px; font-family: Arial, sans-serif; }
+h1 { text-align: center; color: #35633e; font-size: clamp(32px, 6vw, 64px); }
+h2 { margin-top: 30px; border-bottom: 2px solid #b7c9a5; padding-bottom: 8px; }
+.filtros { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; }
+label { display: block; font-weight: bold; }
+input, select { width: 100%; margin-top: 8px; padding: 12px; border: 1px solid #8ca780; border-radius: 6px; background: #fffdf5; color: #2f4f35; font-size: 16px; }
+ul { list-style: none; padding: 0; }
+#catalogo { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 1fr)); gap: 16px; }
+li { background: #e6eddb; border: 1px solid #c5d3b8; border-radius: 6px; padding: 15px; line-height: 1.6; }
+#carrito li { margin-bottom: 10px; }
+img { width: 100%; height: 180px; object-fit: contain; border-radius: 6px; background: #fffdf5; }
+button { background: #456b3e; color: #fffdf5; border: none; border-radius: 5px; padding: 10px 14px; font-size: 14px; cursor: pointer; }
+li button { display: block; margin-top: 10px; }
+button:hover { background: #304d2b; }
+button:disabled { opacity: .55; cursor: not-allowed; }
+:focus-visible { outline: 3px solid #658653; outline-offset: 3px; }
+dialog { width: min(480px, 90vw); border: 1px solid #456b3e; border-radius: 12px; background: #f7f3e8; color: #2f4f35; }
+dialog::backdrop { background: #10251599; }

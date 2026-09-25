@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tienda de botánica</title>
+<link rel="stylesheet" href="estilos.css">
+<script defer src="index.js"></script>
+</head>
+<body>
+<h1>Tienda de botánica</h1>
+<section class="filtros" aria-label="Filtros">
+<label>Buscar una planta<input id="buscador" type="search" placeholder="Ejemplo: cactus"></label>
+<label>Categoría<select id="categoria"><option value="">Todas</option></select></label>
+<label>Luz necesaria<select id="atributo"><option value="">Todas</option></select></label>
+<label>Precio mínimo<input id="minimo" type="number" min="0" step="any" placeholder="0"></label>
+<label>Precio máximo<input id="maximo" type="number" min="0" step="any" placeholder="Sin límite"></label>
+</section>
+<p id="estado" role="status"></p>
+<h2>Catálogo</h2><ul id="catalogo"></ul>
+<h2>Carrito de compra</h2><ul id="carrito"></ul>
+<p>Total: $<span id="total">0</span></p>
+<button id="vaciar" type="button">Vaciar carrito</button>
+<dialog id="detalle" aria-labelledby="detalle-nombre">
+<h2 id="detalle-nombre"></h2><img id="detalle-imagen" alt="">
+<p id="detalle-descripcion"></p><p id="detalle-datos"></p>
+<form method="dialog"><button>Cerrar</button></form>
+</dialog>
+</body>
+</html>

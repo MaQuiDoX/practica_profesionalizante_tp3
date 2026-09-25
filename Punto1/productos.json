@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Cactus", "precio": 2500, "stock": 3, "categoria": "Suculentas", "luz": "Sol", "imagen": "imagenes/cactus.png", "descripcion": "Cactus de crecimiento lento. Necesita poco riego y un sustrato con buen drenaje." },
+  { "id": 2, "nombre": "Helecho", "precio": 4000, "stock": 4, "categoria": "Follaje", "luz": "Sombra", "imagen": "imagenes/helecho.png", "descripcion": "Planta de follaje verde que prefiere ambientes húmedos y luz indirecta." },
+  { "id": 3, "nombre": "Suculenta", "precio": 1800, "stock": 5, "categoria": "Suculentas", "luz": "Sol", "imagen": "imagenes/suculenta.png", "descripcion": "Planta de hojas carnosas que almacenan agua. Regar cuando el sustrato esté seco." },
+  { "id": 4, "nombre": "Lavanda", "precio": 3200, "stock": 2, "categoria": "Aromáticas", "luz": "Sol", "imagen": "imagenes/lavanda.png", "descripcion": "Planta aromática de flores violetas. Ideal para espacios soleados." },
+  { "id": 5, "nombre": "Aloe vera", "precio": 2800, "stock": 3, "categoria": "Suculentas", "luz": "Semisombra", "imagen": "imagenes/aloe.png", "descripcion": "Planta de hojas alargadas y carnosas. Evitar el exceso de agua." },
+  { "id": 6, "nombre": "Orquídea", "precio": 6500, "stock": 0, "categoria": "Flores", "luz": "Semisombra", "imagen": "imagenes/orquidea.png", "descripcion": "Planta ornamental de flores delicadas. Prefiere luz indirecta y buena ventilación." }
+]
